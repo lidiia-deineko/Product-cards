@@ -1,0 +1,98 @@
+.container{
+    max-width: 1170px;
+    width: 100%;
+}
+
+.text-left{
+    max-width: 1145px;
+    margin: 0 auto;
+    padding-top: 66px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 120%;
+    color: #121D46;
+
+}
+
+.card{
+    width: 270px;
+    height: 430px;
+    position: relative;
+}
+
+.card-title{
+    font-family: 'Noto Sans Display', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 118.19%;    
+    color: #2A2D46;
+    padding: 25px 25px 0px 31px;
+}
+
+.card-img{
+    margin: 0 auto;
+    width: 208px;
+    height: 150px;
+}
+
+.list-group-item{
+    border: 0px;
+}
+
+.text-name{
+    font-family: 'Noto Sans Display', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 154.19%;
+    color: #818181;
+    margin-right: 15px;
+    margin-left: 11px;
+}
+
+.text-value{
+    font-family: 'Noto Sans Display', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 154.19%;
+    color: #646986;
+    padding: 25px 25px 0px 31px;
+}
+
+.text-price{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2C3BA0;
+    padding: 25px 25px 0px 31px;
+    position: relative;
+    margin-bottom: 37px;
+}
+
+.text-price_disc::before{
+    content: "3 523 грн.";
+    position: absolute;
+    top: 15px;
+    left: 110px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration-line: line-through;
+    color: rgba(44, 59, 160, 0.6);
+}
+
+.img-bascet{
+    width: 32.9px;
+    height: 23.13px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
