@@ -1,12 +1,13 @@
 .container{
     max-width: 1170px;
     width: 100%;
-    
+  
   
 }
 
 .text-left{
-    max-width: 1145px;
+    max-width: 1160px;
+    padding-left: 35px;
     margin: 0 auto;
     padding-top: 66px;
     font-family: Noto Sans;
